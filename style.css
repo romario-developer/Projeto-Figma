@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,7 +19,7 @@ header {
     margin-right: 23px;
 }
 
-.button-header{
+.button-header {
     background: #665AE1;
     border-radius: 20.5px;
     width: 130px;
@@ -40,7 +40,7 @@ header {
 }
 
 
-section{
+section {
     display: inline-block;
     margin-left: 86px;
 }
@@ -52,14 +52,14 @@ h1 {
     color: #515151;
 }
 
-h2{
+h2 {
     font-weight: 500;
     font-size: 58px;
     line-height: 71px;
     color: #515151;
 }
 
-p{
+p {
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
@@ -85,24 +85,26 @@ p{
 
 @media (max-width: 860px) {
     header {
-    display: none;
-    
+        display: none;
+
     }
+
     .img-logo {
         width: 354px;
         height: 317px;
-        margin-top: 144px;
-        margin-left: 20px;
-    }
-    h1 {
-        font-size: 50px;
-        Line-height:60.95px;
+        margin: 144px 0 0 30px;
     }
 
-    h2{
+    h1 {
+        font-size: 50px;
+        Line-height: 60.95px;
+    }
+
+    h2 {
         font-size: 30px;
     }
+
     p {
-       display: none;
+        display: none;
     }
 }
